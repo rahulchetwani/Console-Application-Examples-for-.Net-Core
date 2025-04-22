@@ -10,7 +10,7 @@ namespace ConsoleAppBasic.Services
         public SomeService(ILogger<SomeService> logger)
         {
             _logger = logger;
-            _logger.LogInformation(LoggingEvents.GENERAL_INFO, "In SomeService Constructor");
+            _logger.LogInformation(LoggingEvents.GENERAL_INFO, "Inside SomeService Constructor");
         }
     }
 
